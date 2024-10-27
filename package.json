@@ -1,0 +1,20 @@
+{
+  "name": "tugas_week_7_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make-folder": "nodemon index.js make-folder",
+    "make-file": "nodemon index.js make-file",
+    "ext-sorter": "nodemon index.js ext-sorter",
+    "read-folder": "nodemon index.js read-folder",
+    "read-file": "nodemon index.js read-file"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
